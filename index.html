@@ -3,136 +3,126 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
         <title>My Resume</title>
     </head>
-        <h1>Chris Auten</h1>
-        <img class="img" height="150px" src="./cat.png" alt="cute-cat-placeholder">
     <body>
-        <div class="summary">
-            <h2>Summary</h2>
-            <p>Accounting Clerk/Former Professional Bookkeeper committed to pursuing a career 
-                change into software/web development.  I have been acquiring these skill through
-                self-learning for the past 3+ years, completing various courses on JavaScript, 
-                Python, and HTML and CSS.  I am currently in the middle of a self-paced bootcamp
-                for Web Development in 2024.</p>
-        </div>
-        <hr>
+        <div class="container">
+            <div class="card" id="image">
+                <img class="img" src="./Assets/profile-pic.JPEG" alt="profile-pic">
+            </div>
 
-        <div class="education">
-            <h2>Education</h2>
-            <p>A list of past and present forms of education</p>
-            <ul>
-                <li>Professional Bookkeeper - Western Career Institute (2013)</li>
-                <li>The Modern JavaScript Bootcamp - Self-Paced Course on Udemy</li>
-                <li>The 2024 Web Development Bootcamp - Self-Paced Course on Udemy</li>
-            </ul>
-        </div>
-        <hr>
+            <div class="card" id="summary">
+                <h1 class="title">Christopher Auten</h1>
+                <h2 class="title">Entry Level Web Developer</h2>
+                <hr>
+                <p>Accounting Clerk/Former Professional Bookkeeper committed to pursuing a career 
+                    change into software/web development.  I have been acquiring these skill through
+                    self-learning for the past 3+ years, completing various courses on JavaScript, 
+                    Python, and HTML and CSS.  I am currently in the middle of a self-paced bootcamp
+                    for Web Development in 2024.</p>
+            </div>
 
-        <div class="work">
-            <h2>Work Experience</h2>
-            <p>A brief list of recent job experience with notes relating to software</p>
-            <ul>
-                <li> iSolved HCM - Accounting Clerk/Benefits Audit Specialist
+            <div class="card" id="contact">
+                <h3 class="title">Contact</h3>
+                <hr>
+                <p>cauten86@yahoo.com/602-750-1923</p>
+                <p>Phoenix, AZ</p>
+                <p>  <a href="https://github.com/bladerunner8608">
+                    https://github.com/bladerunner8608</a>
+                </p>
+                <p>www.linkedin.com/in/christophernauten</p>
+            </div>
+
+            <div class="card" id="work">
+                <h3 class="title">Work Experience</h3>
+                <hr>
+                <ul>
+                    <li class="company"> iSolved HCM - Accounting Clerk/Benefits Audit Specialist
+                            <br>
+                            <p>Jan 2015 - Mar 2020</p>
+                            <ul>
+                                <li>Utilized Excel Spreadsheets and formulas to reconcile accounts</li>
+                                <li>Built small scripts within Excel to automate simple tasks </li>
+                            </ul>
+                    </li>
+                    <br>
+                    <li class="company"> Sunwest Payroll Services - Accounting Assistant
                         <br>
-                        <p>Jan 2015 - Mar 2020</p>
+                        <p>Mar 2020 - Dec 2020</p>
                         <ul>
-                            <li>Utilized Excel Spreadsheets and formulas to reconcile accounts</li>
-                            <li>Built small scripts within Excel to automate simple tasks </li>
+                            <li>Built a spreadsheet in Excel to help track a Company's Benefits</li>
+                            <li>Utilized scripting within Excel to automate a few tasks</li>
                         </ul>
-                </li>
-                <br>
-                <li> Sunwest Payroll Services - Accounting Assistant
+                    </li>
                     <br>
-                    <p>Mar 2020 - Dec 2020</p>
-                    <ul>
-                        <li>Built a spreadsheet in Excel to help track a Company's Benefits</li>
-                        <li>Utilized scripting within Excel to automate a couple of tasks</li>
-                    </ul>
-                </li>
-                <br>
-                <li> Arizona Department of Economic Security - Accounting Specialist I/II 
-                    <br>
-                    <p>Feb 2021 - Present</p>
-                    <ul>
-                        <li>Migrated reconciliation sheets from Excel over to Google Sheets</li>
-                        <li>Created an automated program within Google sheets to help with reconcilations
-                            <ul>
-                                <li>Had users enter data through series of prompts</li>
-                                <li>Performed simple calculations</li>
-                                <li>Checked if items needed to be placed in pending status</li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-        <hr>
+                    <li class="company"> Arizona Department of Economic Security - Accounting Specialist I/II 
+                        <br>
+                        <p>Feb 2021 - Present</p>
+                        <ul>
+                            <li>Migrated reconciliation sheets from Excel over to Google Sheets</li>
+                            <li>Created an automated program within Google sheets to help with reconcilations
+                                <ul>
+                                    <li>Had users enter data through series of prompts</li>
+                                    <li>Performed simple calculations</li>
+                                    <li>Checked if items needed to be placed in pending status</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
 
-        <div class="skills">
-            <h2>Skills</h2>
-            <p>A list of relevant skills</p>
-            <ul>
-                <li> Intermediate knowlege of HTML and CSS
-                    <ul>
-                        <li>CSS Grid</li>
-                        <li>CSS Flexbox</li>
-                        <li>Bootstrap</li>
-                    </ul>
-                </li>
-                <li> Intermediate knowledge of JavaScript
-                    <ul>
-                        <li>Completed self-paced Modern JavaScript Bootcamp on Udemy</li>
-                        <li>DOM Manipulation</li>
-                        <li>Event Listeners</li>
-                        <li>Currently Learning Node.js and React.js</li>
-                    </ul>
-                </li>
-                <li> Intermediate knowledge of SQL
-                    <ul>
-                        <li>Aggregate Functions</li>
-                        <li>Joins</li>
-                        <li>Subqueries</li>
-                    </ul>
-                </li>
-                <li> Intermediate knowledge of Google Sheets Apps Scripts
-                    <ul>
-                        <li>Built scripts for Q and A type prompts for reconciliations</li>
-                        <li>Built scripts for clearing/resetting data</li>
-                    </ul>
-                </li>
-                <li> Basic knowledge of Python
-                    <ul>
-                        <li>Standard programming scripting
-                            <ul>
-                                <li>Conditional Statements</li>
-                                <li>Loops</li>
-                                <li>Lists</li>
-                            </ul>
-                        </li>
-                        <li>Completed Google Certificate Course: Crash Course on Python</li>
-                        <li>Enrolled in The Complete Python Developer Course on Udemy</li>
-                    </ul>
-                </li>
-                <li> Basic knowledge of Excel and Visual Basic
-                    <ul>
-                        <li>Built scripts for clearing/resetting data</li>
-                    </ul>
-                </li>
-                <li> Basic knowledge of Github and version control</li>
-                <li>Can work with a team or independently </li>
-            </ul>
+            <div class="card" id="skills">
+                <h3 class="title">Skills</h3>
+                <hr>
+                <ul>
+                    <li id="skill"> HTML and CSS</li>
+                    <img id="rating-3" src="./Assets/3Star.png" alt="3-Star-Rating">
+                    <br>
+                    <li id="skill"> JavaScript</li>
+                    <img id="rating-3" src="./Assets/3Star.png" alt="3-Star-Rating">
+                    <br>
+                    <li id="skill"> SQL</li>
+                    <img id="rating-3" src="./Assets/3Star.png" alt="3-Star-Rating">
+                    <br>
+                    <li id="skill"> Python</li>
+                    <img id="rating-2" src="./Assets/2Star.png" alt="2-Star-Rating">
+                    <br>
+                    <li id="skill"> Teamwork</li>
+                    <img id="rating-5" src="./Assets/5Star.png" alt="5-Star-Rating">
+                </ul>
+            </div>
+
+            <div class="card" id="education">
+                <h3 class="title">Education and Training</h3>
+                <hr>
+                <ul>
+                    <li>Professional Bookkeeper - Western Career Institute (2013)</li>
+                    <li>The Modern JavaScript Bootcamp - Udemy (2023)</li>
+                    <li>The 2024 Web Development Bootcamp - Udemy (Current)</li>
+                </ul>
+            </div>
+
+            <div class="card" id="certificates"> 
+                <h3 class="title">Certificates</h3>
+                <hr>
+                <ul>
+                    <li>SQL Module Completion on Mimo</li>
+                    <li>HTML Module Completion on Mimo</li>
+                    <li>Crash Course on Python Google Certificate</li>
+                </ul>
+            </div>
+
+            <div class="card" id="interests">
+                <h3 class="title">Interests</h3>
+                <hr>
+                <ul>
+                    <li>Troubleshooting</li>
+                    <li>Game Development</li>
+                    <li>Machine Learning</li>
+                </ul>
+            </div>
         </div>
-        <hr>
-        <div class="certs">
-            <h2>Certificates</h2>
-            <ul>
-                <li>SQL Module Completion on Mimo</li>
-                <li>HTML Module Completion on Mimo</li>
-                <li>Crash Course on Python Google Certificate</li>
-            </ul>
-        </div>
-    <hr>
     </body>
-        <a href="./contact.html">Contact Me</a>
 </html>
