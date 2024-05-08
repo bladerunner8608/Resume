@@ -114,21 +114,5 @@ li.company{
 }
 
 @media (max-width: 1200px) and (min-width: 481px) {
-    #summary {
-        grid-column: 2/4;
-        grid-row: 1;
-        position: absolute;
-        height: 200px;
-        width: 890px;
-        left: 320px;
-    }
 
-    #interests {
-        grid-column: 3;
-        grid-row: 4;
-        position: absolute;
-        top: 750px;
-        left: 1025px;
-        width: 285px;
-    }
   }
