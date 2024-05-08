@@ -114,5 +114,15 @@ li.company{
 }
 
 @media (max-width: 1200px) and (min-width: 481px) {
+    div {
+        width:100%;
+    }
 
+    li{
+        font-size: 8pt
+    }
+
+    li.company {
+        font-size: 12pt;
+    }
   }
